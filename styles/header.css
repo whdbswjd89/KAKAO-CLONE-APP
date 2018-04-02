@@ -1,10 +1,13 @@
 /*header*/
 .top-header{
-  /*Kakotalk header-color #523737 */
+  /*Kakotalk header-color */
   background-color:#523737;
   color:white;
   /*padding: up left down right direction adding px*/
   padding : 5px 10px 15px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .top-header .header__top,
