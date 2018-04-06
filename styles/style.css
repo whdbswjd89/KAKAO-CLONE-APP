@@ -1,7 +1,9 @@
 /*This style.css is consisted of the css files*/
-@import url('<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">')
+@import url('<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">');
 @import 'reset.css';
 @import 'globals.css';
 @import 'header.css';
 @import 'navigation.css';
-@import 'search-bar.css'
+@import 'search-bar.css';
+@import 'friends.css';
+@import 'chats.css'
