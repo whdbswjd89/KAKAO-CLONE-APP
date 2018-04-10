@@ -28,6 +28,13 @@
 .top-header .header__column{
   width: 33%;
 }
+
+.top-header .header__bottom .header__column:first-child{
+  color: rgba(255,255,255,0.5);
+
+
+}
+
 /*last child - last column of  all columns */
 .top-header .header__column:last-chid{
   text-align: right;
@@ -38,4 +45,3 @@
 .top-header .header__number{
   color: yellow;
 }
-.
