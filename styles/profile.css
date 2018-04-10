@@ -1,0 +1,75 @@
+.top-header--transparent{
+  background-color: transparent;
+}
+
+.profile .profile__header{
+  /*vh : view for height,screen of 80% */
+  height: 80vh;
+  background-image: url('C:/Users/jeong/Documents/KAKAO-CLONE-APP/images/profile_bg.jpg');
+  background-position: center;
+  background-size: 100%;
+  background-color: red;
+  width:100%;
+  position: relative;
+  /*body padding 60 as default,need to offset*/
+  top: -60px;
+  display: flex;
+  /*flex-direction is column,justify change flex flex-end,
+    items is center */
+  flex-direction: column;
+  /*justify-content: center;
+  align-items: flex-end;*/
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header .profile__header-container{
+  text-align: center;
+  /*position:relative -> up down left right move*/
+  position: relative;
+  /*move image bottom */
+  bottom: -60px;
+}
+
+.profile__header-container img{
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile__container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__containe input{
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.profile__actions{
+  display: flex;
+}
+
+.profile__action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  /*cursor : not-allowed, cusor is X sign*/
+  cursor: pointer;
+}
+
+.profile__action-circle{
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+
+.profile__action-title{
+  font-size: 12px;
+  font-weight: 600px;
+}
