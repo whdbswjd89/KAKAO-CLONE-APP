@@ -7,7 +7,7 @@ body{
 
 main{
     /*animation*/
-  animation: 5s bodyPopIn ease-in-out;
+  animation: 1s bodyPopIn ease-in-out;
 }
 
 @keyframes bodyPopIn {
