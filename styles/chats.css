@@ -50,6 +50,7 @@
   width: 60px;
   height: 60px;
   background-color:  #ffe94a;
+  display : flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -63,5 +64,15 @@
   colir: #523737;
   /*box-shadow: left-right bottom-border blur rgbaL(color,opacity)*/
   box-shadow: 0px 3px 10px rgba(0,0,0,0,2);
+  cursor: pointer;
+  /*hover, transition+transform*/
+  transition: color .3s,background .3s,transform .5s ease-in-out;
 
+}
+
+.chat__button:hover{
+  color:white;
+  background: #523737;
+  /* transform */
+  transform: rotateY(30deg);
 }
